@@ -1,0 +1,81 @@
+<div class="container-fluid">
+  <div class="col-sm-1">
+  </div>
+  <div class="col-sm-10">
+    <div class="hero">
+      <div class="container">
+        <h1 class="ident">Hello!</h1>
+        <p class="lead">I'm Shelby Coleman, a programmer specializing in front end development. I'm currently <br>working my way through a Bloc Software Developer apprenticeship. </p>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="skill row">
+        <h3>Skills</h3>
+        <div class="col-sm-4">
+          <ul>Languages
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>SQL</li>
+            <li>SAS</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul>Frameworks
+            <li>jQuery</li>
+            <li>AngularJS</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul>Other
+            <li>Version Control</li>
+            <li>Firebase</li>
+            <li>Data Analysis</li>
+            <li>Git</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project">
+        <h3>Projects</h3>
+        <div class="project row" ng-repeat="study in main.selectProject">
+          <div class="col-sm-5">
+            <div class="project-boxing">
+              <br>
+              <img src="{{study.art}}">
+            </div>
+            <div class="project-boxing">
+            </div>
+          </div>
+          <div class="col-sm-5 project-content">
+            <h4>{{study.project}}</h4>
+            <h5>Using: </h5>
+            <p>{{study.languages}}</p>
+            <h5>Summary: </h5>
+            <p>{{study.summary}}</p>
+            <h5>Problem: </h5>
+            <p>{{study.problem}}</p>
+            <h5>Resolution: </h5>
+            <p>{{study.solution}}</p>
+            <h5>Results: </h5>
+            <p>{{study.results}}</p>
+          </div>
+        </div>
+        <div class="blog">
+          <h3>Blog</h3>
+          <div class="blog-contents" ng-repeat="post in main.posts">
+            <p class="blog-date">{{post.date}}</p>
+            <p class="blog-title">{{post.title}}</p>
+            <i class="fa fa-angle-down fa-3x blog-hider" aria-hidden="true" ng-hide="showBlog" ng-click="showBlog = true"></i>
+            <i class="fa fa-angle-up fa-3x blog-hider" aria-hidden="true" ng-show="showBlog" ng-click="showBlog = false"></i>
+            <div class="blog-post" ng-bind-html="post.text" ng-show="showBlog">
+              <p>{{post.text}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1">
+        </div>
+      </div>
+    </div>
+  </div>
