@@ -30,10 +30,15 @@ html, body, .container-fluid {
 }
 
 .buttons {
-  padding-left: 400px;
+  float: right;
 }
 
 .nav-button {
+  float: right;
+}
+
+.nav-button button{
+  text-align: center;
   color: white;
   font-family: Helvetica, Arial, Sans-Serif;
   font-size: 20px;
@@ -199,9 +204,7 @@ li {
      padding-bottom: 20px;
      margin: 10px;
    }
-   .buttons {
-     padding-left: 100px;
-   }
+
    .heading h2 {
      padding-left: 0;
      float: left;
@@ -218,12 +221,54 @@ li {
 }
 
 @media screen and (max-width:479px) {
-  .project-content {
-    float:right;
-  }
-  img {
-    height: 150px;
+  .heading h2 {
+    padding-left: 0;
+    float: left;
+    font-size: 50px;
   }
 
+  .nav-button button{
+    height: 60px;
+    width: 60px;
+    padding: 10px 10px
+  }
+
+  .fa-envelope{
+    right: 5px;
+  }
+
+  .main-body{
+    padding: 5px;
+  }
+
+  .lead {
+    padding-bottom: 20px;
+    margin: 10px;
+  }
+
+  .heading h2 {
+    padding-left: 0;
+    float: left;
+  }
+
+  .skill  {
+    padding-top: 200px;
+  }
+
+  .skill ul {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 15px;
+  }
+
+  .project-content {
+    float: right;
+  }
+
+  img{
+    height: 150px;
+  }
 
 }
