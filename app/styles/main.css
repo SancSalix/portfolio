@@ -1,6 +1,4 @@
-html, body {
-  height: 100%;
-  width: 100%;
+html, body, .container-fluid {
   background-color: #0D7E83;
   color: white;
   padding: 0;
@@ -10,23 +8,61 @@ html, body {
   overflow-x: hidden;
 }
 
-.navbar {
+.heading {
   background-color: #F79F66;
   margin: 0;
   border: 0;
   padding: 0;
+  width: 100%;
 }
 
-.navbar h2 {
+.heading h2 {
   font-family: 'Yellowtail', cursive;
   background-color: #F79F66;
   font-size: 75px;
   left: 15px;
   bottom: 10px;
+  padding-left: 100px;
 }
 
 .panel-title h4 {
   background-color: #9ECBCD color: black;
+}
+
+.buttons {
+  padding-left: 400px;
+}
+
+.nav-button {
+  color: white;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #0D7E83;
+  text-shadow: -1px -1px 1px #616161;
+  position: relative;
+  padding: 10px 25px;
+  -webkit-box-shadow: 5px 5px 0 #666;
+  -moz-box-shadow: 5px 5px 0 #666;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  margin: 0 10px 0 0;
+  height: 65px;
+}
+
+.nav-button:hover {
+  -webkit-box-shadow: 0px 0px 0 #666;
+  -moz-box-shadow: 0px 0px 0 #666;
+  top: 5px;
+  left: 5px;
+}
+
+.buttons {
+  top: 10px;
+}
+
+.contact-me {
+  color: white;
 }
 
 a, a:hover, a:visited {
@@ -104,38 +140,6 @@ li {
   background-color: #F79F66;
 }
 
-.nav-button {
-  color: white;
-  font-family: Helvetica, Arial, Sans-Serif;
-  font-size: 20px;
-  text-decoration: none;
-  background-color: #0D7E83;
-  text-shadow: -1px -1px 1px #616161;
-  position: relative;
-  padding: 10px 25px;
-  -webkit-box-shadow: 5px 5px 0 #666;
-  -moz-box-shadow: 5px 5px 0 #666;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  margin: 0 10px 0 0;
-  height: 65px;
-}
-
-.nav-button:hover {
-  -webkit-box-shadow: 0px 0px 0 #666;
-  -moz-box-shadow: 0px 0px 0 #666;
-  top: 5px;
-  left: 5px;
-}
-
-.buttons {
-  top: 10px;
-}
-
-.contact-me {
-  color: white;
-}
-
 .project-content h4{
   font-weight: bold;
   font-size: 25px;
@@ -146,11 +150,6 @@ li {
   font-weight: bold;
   font-size: 15px;
 }
-
-
-/*.project-boxing {
-  border: 2px solid #9ECBCD;
-}*/
 
 .project-boxing p {
   float: right;
@@ -190,4 +189,41 @@ li {
   html {
     font-size: 120%;
   }
+}
+
+@media screen and (min-width:480px) and (max-width:800px) {
+   .main-body{
+     padding: 5px;
+   }
+   .lead {
+     padding-bottom: 20px;
+     margin: 10px;
+   }
+   .buttons {
+     padding-left: 100px;
+   }
+   .heading h2 {
+     padding-left: 0;
+     float: left;
+   }
+   .row {
+     padding-top: 50px;
+   }
+   .project-content {
+     padding-left: 15px;
+   }
+   img{
+     height: 180px;
+   }
+}
+
+@media screen and (max-width:479px) {
+  .project-content {
+    float:right;
+  }
+  img {
+    height: 150px;
+  }
+
+
 }

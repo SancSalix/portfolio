@@ -3,6 +3,7 @@
     var Fixtures = {};
     var projects = [{
         project: 'Ambient Jams',
+        link: 'https://frame-maker-badger-75026.netlify.com/',
         languages: 'HTML, CSS, JavaScript, jQuery, AngularJS',
         art: '/assets/AmbientPic.png',
         summary: 'There are a lot of options for music streaming out there. Sometimes though, you just want to tune in and zone out. Enter Ambient Jams, perfect for homework, coding, or just general white noise',
@@ -11,9 +12,10 @@
         results: 'A simple to use, play and forget that lets you concentrate on work'
       },
       {
-        project: 'Project Chat',
+        project: 'Sea Chat',
+        link: 'https://peddler-cat-30376.netlify.com/',
         languages: 'HTML, CSS, JavaScript, jQuery, Bootstrap, Firebase, AngularJS',
-        art: '/assets/ProjectPic.png',
+        art: '/assets/SeaPic.png',
         summary: 'Working on a group project needs communication, and the more lightweight the better. Project Chat is a good way',
         problem: 'When you need to focus, it can be easy to get distracted when creating the perfect playlist.',
         solution: 'Ambient Jams offers a quick easy offering of ambient techno without needing to spend time picking/choosing',
