@@ -9,17 +9,17 @@
         summary: 'There are a lot of options for music streaming out there. Sometimes though, you just want to tune in and zone out. Enter Ambient Jams, perfect for homework, coding, or just general white noise',
         problem: 'When you need to focus, it can be easy to get distracted when creating the perfect playlist.',
         solution: 'Ambient Jams offers a quick easy offering of ambient techno without needing to spend time picking/choosing',
-        results: 'A simple to use, play and forget that lets you concentrate on work'
+        results: 'A simple to use, play and forget site that lets you concentrate on work'
       },
       {
         project: 'Sea Chat',
         link: 'https://peddler-cat-30376.netlify.com/',
         languages: 'HTML, CSS, JavaScript, jQuery, Bootstrap, Firebase, AngularJS',
         art: '/assets/SeaPic.png',
-        summary: 'Working on a group project needs communication, and the more lightweight the better. Project Chat is a good way',
-        problem: 'When you need to focus, it can be easy to get distracted when creating the perfect playlist.',
-        solution: 'Ambient Jams offers a quick easy offering of ambient techno without needing to spend time picking/choosing',
-        results: 'A simple to use, play and forget that lets you concentrate on work'
+        summary: 'Lightweight chat app, built to enable quick communication for those that are interested in ocean environmentalism',
+        problem: 'Activism needs a lot of coordination, and it can be difficult to predict organization',
+        solution: 'Sea Chat allows chatting to happen rapidly, and rooms can be quickly created based on need',
+        results: 'A series of chat rooms that has authentiated users and private rooms'
       }
     ];
 
