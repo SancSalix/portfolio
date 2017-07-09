@@ -5,7 +5,7 @@
         project: 'Ambient Jams',
         link: 'https://frame-maker-badger-75026.netlify.com/',
         languages: 'HTML, CSS, JavaScript, jQuery, AngularJS',
-        art: '/assets/AmbientPic.png',
+        art: '/assets/ambient_jams.png',
         summary: 'There are a lot of options for music streaming out there. Sometimes though, you just want to tune in and zone out. Enter Ambient Jams, perfect for homework, coding, or just general white noise',
         problem: 'When you need to focus, it can be easy to get distracted when creating the perfect playlist.',
         solution: 'Ambient Jams offers a quick easy offering of ambient techno without needing to spend time picking/choosing',
@@ -15,11 +15,21 @@
         project: 'Sea Chat',
         link: 'https://peddler-cat-30376.netlify.com/',
         languages: 'HTML, CSS, JavaScript, jQuery, Bootstrap, Firebase, AngularJS',
-        art: '/assets/SeaPic.png',
+        art: '/assets/sea_chat.png',
         summary: 'Lightweight chat app, built to enable quick communication for those that are interested in ocean environmentalism',
         problem: 'Activism needs a lot of coordination, and it can be difficult to predict organization',
         solution: 'Sea Chat allows chatting to happen rapidly, and rooms can be quickly created based on need',
-        results: 'A series of chat rooms that has authentiated users and private rooms'
+        results: 'A series of chat rooms that has authenticated users and private rooms'
+      },
+      {
+        project: 'Bloc Jams',
+        link: 'https://sancsalix.github.io/bloc-jams/',
+        languages: 'HTML, CSS, JavaScript, jQuery',
+        art: '/assets/bloc_jams.png',
+        summary: 'Bloc Jams was created to demo a band and their albums. Something quick to get through and cycle their various albums',
+        problem: 'Being able to quickly cycle through their albums, displaying the art and song list without having to code it all out manually',
+        solution: 'Using jQuery to iterate over a list of their albums/songs allows for quick traversal of their discography',
+        results: 'A fun vinyl themed demo site, showcasing the music of a band'
       }
     ];
 
