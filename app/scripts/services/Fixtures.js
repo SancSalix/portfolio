@@ -5,31 +5,29 @@
         project: 'Ambient Jams',
         link: 'https://frame-maker-badger-75026.netlify.com/',
         languages: 'HTML, CSS, JavaScript, jQuery, AngularJS',
-        art: '/assets/ambient_jams.png',
-        summary: 'There are a lot of options for music streaming out there. Sometimes though, you just want to tune in and zone out. Enter Ambient Jams, perfect for homework, coding, or just general white noise',
-        problem: 'When you need to focus, it can be easy to get distracted when creating the perfect playlist.',
-        solution: 'Ambient Jams offers a quick easy offering of ambient techno without needing to spend time picking/choosing',
-        results: 'A simple to use, play and forget site that lets you concentrate on work'
+        art: '/assets/ambient_jams.png' //,
+        //  summary: 'There are a lot of options for music streaming out there. Sometimes though, you just want to tune in and zone out. Enter Ambient Jams, perfect for homework, coding, or just general white noise'
       },
       {
         project: 'Sea Chat',
         link: 'https://peddler-cat-30376.netlify.com/',
         languages: 'HTML, CSS, JavaScript, jQuery, Bootstrap, Firebase, AngularJS',
-        art: '/assets/sea_chat.png',
-        summary: 'Lightweight chat app, built to enable quick communication for those that are interested in ocean environmentalism',
-        problem: 'Activism needs a lot of coordination, and it can be difficult to predict organization',
-        solution: 'Sea Chat allows chatting to happen rapidly, and rooms can be quickly created based on need',
-        results: 'A series of chat rooms that has authenticated users and private rooms'
+        art: '/assets/sea_chat.png' //,
+        //  summary: 'Lightweight chat app, built to enable quick communication for those that are interested in ocean environmentalism'
       },
       {
-        project: 'Bloc Jams',
-        link: 'https://sancsalix.github.io/bloc-jams/',
-        languages: 'HTML, CSS, JavaScript, jQuery',
-        art: '/assets/bloc_jams.png',
-        summary: 'Bloc Jams was created to demo a band and their albums. Something quick to get through and cycle their various albums',
-        problem: 'Being able to quickly cycle through their albums, displaying the art and song list without having to code it all out manually',
-        solution: 'Using jQuery to iterate over a list of their albums/songs allows for quick traversal of their discography',
-        results: 'A fun vinyl themed demo site, showcasing the music of a band'
+        project: 'Address Book',
+        link: 'https://github.com/SancSalix/address_bloc',
+        languages: 'Ruby',
+        art: '/assets/address.png' //,
+        //  summary: 'Lightweight chat app, built to enable quick communication for those that are interested in ocean environmentalism'
+      },
+      {
+        project: 'Bloccit',
+        link: 'https://obscure-anchorage-28821.herokuapp.com/',
+        languages: 'HTML, CSS, Ruby on Rails',
+        art: '/assets/bloccit.png' //,
+        //  summary: 'Lightweight chat app, built to enable quick communication for those that are interested in ocean environmentalism'
       }
     ];
 
@@ -40,33 +38,33 @@
           " me occupied, and I was frustrated by the limitations of the tools I had. Those tools were mainly the ERP I used" +
           " (SAP at that time) and Microsoft Excel. So very limited.<br><br>" +
           "To save time and effort, I created an invoice generator for some internal business units I was cross charging." +
-          "Very simple, it merely captured a certain area, and created a pdf every time I clicked a button.<br><br>"+
-        "   A co-worker saw this and liked it. He asked for one of his own. However, he wanted one of vastly different scope." +
-        "He wanted his to be automated, to scrape the data out of forecasted templates, create new templates, and add all" +
-        " the data to an ever growing database. He wanted it locked down for editing when operations people used it, he wanted" +
-        " a way to implement static cost changes, the ability to edit templates, the list went on and on.<br><br>" +
-        "   My co-worker was also very exacting. He had a long list of must-haves, and wouldn't budge on a single one." +
-        " A lot of times I thought something was impossible, I would spend researching and cobbling together different bits" +
-        " of things I had learned, to learn I was wrong and learn a lot in the process.<br><br>" +
-        "   All the while I was learning new types of VB, learning it again when I was forced to move to Access, and realizing" +
-        " that the struggle and completion of a programming challenge was far more satisfying than accounting had ever been.<br><br>" +
-        "   Once I had grasped this, it was like a curtain had parted. I started looking for a new job, because I knew my current" +
-        " role couldn't expand to fit my newfound programming urges. I was lucky enough to find a role at a local (and locally" +
-        " famous) software developer. The role was for a position that was half accountant/half sys admin. So much closer! I" +
-        " was also allowed a lot more freedom in my ability to explore and try things out. I spent a year learning SQL and testing" +
-        " the limits and if my new passion would last.<br><br>" +
-        "   It not only lasted, it grew. I wanted more than databases and reports. I wanted to be able to create things, to see" +
-        " complicated nests of code make something beautiful. I had a goal and I was driven to pursue it. It was a relief to me" +
-        " to find work that satisfied, after the frustration of working in accounting.<br><br>" +
-        "   So! I started because I didn't want to save every invoice individually, and that was the best happy accident for me.<br><br> " +
-        "<sub>*Also I'd prefer to never have to use VB ever again.*</sub><br><br><br>"
+          "Very simple, it merely captured a certain area, and created a pdf every time I clicked a button.<br><br>" +
+          "   A co-worker saw this and liked it. He asked for one of his own. However, he wanted one of vastly different scope." +
+          "He wanted his to be automated, to scrape the data out of forecasted templates, create new templates, and add all" +
+          " the data to an ever growing database. He wanted it locked down for editing when operations people used it, he wanted" +
+          " a way to implement static cost changes, the ability to edit templates, the list went on and on.<br><br>" +
+          "   My co-worker was also very exacting. He had a long list of must-haves, and wouldn't budge on a single one." +
+          " A lot of times I thought something was impossible, I would spend researching and cobbling together different bits" +
+          " of things I had learned, to learn I was wrong and learn a lot in the process.<br><br>" +
+          "   All the while I was learning new types of VB, learning it again when I was forced to move to Access, and realizing" +
+          " that the struggle and completion of a programming challenge was far more satisfying than accounting had ever been.<br><br>" +
+          "   Once I had grasped this, it was like a curtain had parted. I started looking for a new job, because I knew my current" +
+          " role couldn't expand to fit my newfound programming urges. I was lucky enough to find a role at a local (and locally" +
+          " famous) software developer. The role was for a position that was half accountant/half sys admin. So much closer! I" +
+          " was also allowed a lot more freedom in my ability to explore and try things out. I spent a year learning SQL and testing" +
+          " the limits and if my new passion would last.<br><br>" +
+          "   It not only lasted, it grew. I wanted more than databases and reports. I wanted to be able to create things, to see" +
+          " complicated nests of code make something beautiful. I had a goal and I was driven to pursue it. It was a relief to me" +
+          " to find work that satisfied, after the frustration of working in accounting.<br><br>" +
+          "   So! I started because I didn't want to save every invoice individually, and that was the best happy accident for me.<br><br> " +
+          "<sub>*Also I'd prefer to never have to use VB ever again.*</sub><br><br><br>"
       },
       {
         title: 'Challenge',
         date: '4/11/17',
         text: "One of the biggest troubles I've had with attempting to shift my career and learn programming has been" +
           " centered around tools. Which IDE to use? How do I upload things? Where/how do I preview what I'm building? " +
-          "Which languages do I want to learn?<br><br>"+
+          "Which languages do I want to learn?<br><br>" +
           "I was embarrassed to ask in the beginning some of the stuff I assumed would be simple. Most resources either had" +
           " internal little coding windows to attempt what they were teaching, or were just examples and how-tos. Googling" +
           " ususually ended up at Stack Overflow with a million voices shouting.<br><br>" +
@@ -85,12 +83,12 @@
           "Languages are still something I waver between, besides the ones mandated by my bootcamp. Choices like Python, Java," +
           " Go, C , or Ruby. Each used for different types of work. I feel more confident as I go along, and I also know I can" +
           " always learn another as I find my strengths. That doesn't mean there aren't a million choices though! I mostly spy" +
-          " on other developer conversations scattered across the internet, and take personal note. This person says Ruby on "+
-        "Rails is dying, this person loves React, it all forms a web of awareness. The other thing I learned was useful was" +
-        " to look at job postings. If it was needed, it was requested. The most used languages became familiar after a day of" +
-        " combing through a variety of openings.<br><br>" +
-        "I'm less embarrassed to ask now, but that's also because instead of a babe in the woods, I am ever so slightly more" +
-        " knowledgeable. The world of programming still seems vast to my eyes.<br><br><br>"
+          " on other developer conversations scattered across the internet, and take personal note. This person says Ruby on " +
+          "Rails is dying, this person loves React, it all forms a web of awareness. The other thing I learned was useful was" +
+          " to look at job postings. If it was needed, it was requested. The most used languages became familiar after a day of" +
+          " combing through a variety of openings.<br><br>" +
+          "I'm less embarrassed to ask now, but that's also because instead of a babe in the woods, I am ever so slightly more" +
+          " knowledgeable. The world of programming still seems vast to my eyes.<br><br><br>"
       }
     ];
 
