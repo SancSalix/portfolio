@@ -4,26 +4,19 @@
     <ul class="nav navbar-nav">
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#blogging">Blog</a></li>
     </ul>
   </nav>
-  <div class="main-body row">
-    <div class="col-xs-1">
-    </div>
-    <div class="col-xs-10">
+  <div class="main-body">
       <div class="hero">
         <h1 class="ident">Hello!</h1>
         <p class="lead">I'm Shelby Coleman, a programmer specializing in front end development. I'm currently <br>working my way through a Bloc Software Developer apprenticeship. </p>
       </div>
-    </div>
-    <div class="col-xs-1">
-    </div>
+
+
   </div>
   <div id="skills" class="skill row">
-    <div class="col-xs-1">
-    </div>
-    <h3 class="col-xs-2">Skills</h3>
-    <div class="col-xs-2">
+    <h3 class="col-xs-3">Skills</h3>
+    <div class="col-xs-3">
       <ul>Languages
         <li>HTML/CSS</li>
         <li>JavaScript</li>
@@ -32,14 +25,14 @@
         <li>SAS</li>
       </ul>
     </div>
-    <div class="col-xs-2">
+    <div class="col-xs-3">
       <ul>Frameworks
         <li>jQuery</li>
         <li>AngularJS</li>
         <li>Bootstrap</li>
       </ul>
     </div>
-    <div class="col-xs-2">
+    <div class="col-xs-3">
       <ul>Concepts/Tools
         <li>Version Control</li>
         <li>Firebase</li>
@@ -48,46 +41,21 @@
         <li>Command Line</li>
       </ul>
     </div>
-    <div class="col-xs-1">
-    </div>
   </div>
 
   <div id="projects" class="project">
-    <div class="col-xs-1">
-    </div>
-    <h3 class="holding col-xs-2">Projects</h3>
+    <h3 class="holding col-xs-3">Projects</h3>
     <div class="project-boxing col-xs-3" ng-repeat="study in main.selectProject">
           <a href={{study.link}} target="_blank"><img src="{{study.art}}"></a>
     </div>
-    <div class="col-xs-1">
+
     </div>
-    </div>
-
-
-    <div id="blogging" class="blog row">
-      <div class="col-xs-1">
-      </div>
-      <h3 class="col-xs-2">Blog</h3>
-      <div class="blog-contents col-xs-5" ng-repeat="post in main.posts">
-        <p class="blog-date">{{post.date}}</p>
-        <p class="blog-title">{{post.title}}</p>
-        <i class="fa fa-angle-down fa-3x blog-hider" aria-hidden="true" ng-hide="showBlog" ng-click="showBlog = true"></i>
-        <i class="fa fa-angle-up fa-3x blog-hider" aria-hidden="true" ng-show="showBlog" ng-click="showBlog = false"></i>
-        <div class="blog-post" ng-bind-html="post.text" ng-show="showBlog">
-          <p>{{post.text}}</p>
-        </div>
-      </div>
-      <div class="col-xs-1">
-      </div>
-    </div>
-
-
 
   <footer class="bottom row">
-    <div class="buttons col-xs-12">
-      <a class="contact-button" href="https://github.com/SancSalix" target="_blank"><button class="contact-button" type="contact"><i class="fa contact-me fa-github fa-2x" aria-hidden="true"></i></button></a>
-      <a class="contact-button" href="https://www.linkedin.com/in/shelbyncoleman/" target="_blank"><button class="contact-button" type="contact"><i class="fa contact-me fa-linkedin fa-2x" aria-hidden="true"></i></button></a>
-      <a class="contact-button" href="mailto:shelbcoleman@gmail.com" target="_blank"><button class="contact-button" type="contact"><i class="fa contact-me fa-envelope fa-2x" aria-hidden="true"></i></button></a>
+    <div class = "contacts-bar col-xs-12">
+      <a href="https://github.com/SancSalix" target="_blank"><i class="contact fa contact-me fa-github fa-5x" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/shelbyncoleman/" target="_blank"><i class="contact fa contact-me fa-linkedin fa-5x" aria-hidden="true"></i></a>
+      <a href="mailto:shelbcoleman@gmail.com" target="_blank"><i class="contact fa contact-me fa-envelope fa-5x" aria-hidden="true"></i></a>
     </div>
   </footer>
 </div>

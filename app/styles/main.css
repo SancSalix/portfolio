@@ -132,78 +132,28 @@ img {
   height: 220px;
 }
 
-.blog {
-  background-color: #F79F66;
-}
-
-.blog h3{
-  right: 350px;
-
-}
-
-.blog-contents {
-  right: 350px;
-}
-
-
-
-.blog-title {
-  font-size: 25px;
-  margin: 0px;
-  right: 350px;
-}
-
-.blog-post p {
-  .text-indent: 50px;
-  right: 350px;
-}
-
 .project-icon {
   font-size: 10em;
 }
 
-footer {
+.bottom {
   margin: 0;
   border: 0;
-  padding: 15px;
   width: 100%;
-}
-
-.buttons {
-  float: right;
-}
-
-.contact-button {
-  float: right;
-}
-
-.contact-button button {
-  text-align: center;
-  color: #F5EFED;
-  font-family: Helvetica, Arial, Sans-Serif;
-  font-size: 20px;
-  text-decoration: none;
   background-color: #F79F66;
-  text-shadow: -1px -1px 1px #616161;
-  position: relative;
-  padding: 10px 25px;
-  -webkit-box-shadow: 5px 5px 0 #666;
-  -moz-box-shadow: 5px 5px 0 #666;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  margin: 0 10px 0 0;
-  height: 65px;
 }
 
-.contact-button:hover {
-  -webkit-box-shadow: 0px 0px 0 #666;
-  -moz-box-shadow: 0px 0px 0 #666;
-  top: 5px;
-  left: 5px;
+
+.contacts-bar {
+  bottom: 75px;
+  padding-right: 100px;
+
 }
 
 .contact-me {
-  color: #F5EFED;
+  color: #0D7E83;
+  padding: 5px;
+  float: right;
 }
 
 @media (min-width: 640px) {
