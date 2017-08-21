@@ -23,10 +23,10 @@
         //  summary: 'Lightweight chat app, built to enable quick communication for those that are interested in ocean environmentalism'
       },
       {
-        project: 'Bloccit',
+        project: 'Nameless City',
         link: 'https://obscure-anchorage-28821.herokuapp.com/',
         languages: 'HTML, CSS, Ruby on Rails',
-        art: '/assets/bloccit.png' //,
+        art: '/assets/nameless.png' //,
         //  summary: 'Lightweight chat app, built to enable quick communication for those that are interested in ocean environmentalism'
       }
     ];
